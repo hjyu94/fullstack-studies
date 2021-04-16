@@ -48,6 +48,14 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <!--frontend-maven-plugin 메이븐 플러그인-->
+                <!--node.js 빌드 지원-->
+                <!--운영으로는 비추천-->
+                <!--프론트+백엔드 한번에 개발할 때 유용-->
+                <groupId>com.github.eirslett</groupId>
+                <artifactId>frontend-maven-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
 
