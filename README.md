@@ -12,3 +12,5 @@ $ package.json
 },
 ```
 $ npm run start  
+
+$ npm install mongoose --save
